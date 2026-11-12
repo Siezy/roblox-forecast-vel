@@ -12,6 +12,7 @@ SHARP = 0.5    # exp distance falloff
 NCAND = 15     # games named per place
 SHARE = 0.92   # named mass per place (rest spread by grader)
 CAP = 25       # games considered
+VERSION = "v1.1"
 
 def chart(line):
     return [g["universe_id"] for g in sorted(line["up_and_coming"], key=lambda g: g["rank"])]
