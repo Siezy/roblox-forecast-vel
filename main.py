@@ -7,7 +7,7 @@ from collections import defaultdict
 
 INPUT_DIR = os.environ.get("MAKEFUN_INPUT_DIR", "/input")
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
-DECAY = 0.9    # recency weight per older read
+DECAY = 0.95   # recency weight per older read
 SHARP = 0.5    # exp distance falloff
 NCAND = 15     # games named per place
 SHARE = 0.92   # named mass per place (rest spread by grader)
